@@ -1,0 +1,33 @@
+.header{
+    background-color: yellow;
+    line-height: 85px;
+    height: 85px;
+    font-size: 50px;
+    font-weight: 1000;
+}
+.left{
+    float: left;
+}
+.right{
+    float: left;
+}
+.footer{
+    background-color: lightgray;
+    line-height: 50px;
+    height: 50px;
+    clear: both;
+}
+
+.mid img{
+    border: 0.5px solid;
+}
+a{
+    object-fit: cover;
+}
+
+.header, .left, .right, .footer{text-align: center; color: black;}
+
+.left, .right{height: 85dvh; height: 85vh; width: 50%;}
+
+.mid img, a{display: block; height: 85dvh; height: 85vh; width: 100%;}
+
